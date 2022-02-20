@@ -23,8 +23,6 @@ import java.util.function.Supplier;
 public class EunithiceBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Eunithice.MODID);
 
-    // WEIRD SHIT THAT I DON'T UNDERSTAND
-
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);
     }
@@ -40,7 +38,6 @@ public class EunithiceBlocks {
                 new Item.Properties().tab(tab)));
     }
 
-    // ACTUAL BLOCKS
 
     public static final RegistryObject<Block> JUMP_IMBUED_ASPHALT = registerBlock("jump_imbued_asphalt",
             () -> new JumpImbuedAsphalt(BlockBehaviour.Properties

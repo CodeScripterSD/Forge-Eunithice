@@ -27,6 +27,8 @@ public class EunithiceItems {
         ITEMS.register(eventBus);
     }
 
+    /// Begin Items
+
     public static final RegistryObject<BedrockHammer> BEDROCK_HAMMER = ITEMS.register("bedrock_hammer",
             () -> new BedrockHammer(new Item.Properties()
                     .tab(Eunithice.EUNITHICE_ITEMS)));

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#A#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "eunithice:speed_imbued_asphalt"
+    },
+    "A": {
+      "item": "minecraft:honey_block"
+    }
+  },
+  "result": {
+    "item": "eunithice:honey_imbued_asphalt",
+    "count": 8
+  }
+}

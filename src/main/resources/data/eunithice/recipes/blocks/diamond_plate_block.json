@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#A#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "eunithice:hardened_diamond_plate"
+    },
+    "A": {
+     "item": "eunithice:diamond_hammer"
+    }
+  },
+  "result": {
+    "item": "eunithice:diamond_plate_block"
+  }
+}

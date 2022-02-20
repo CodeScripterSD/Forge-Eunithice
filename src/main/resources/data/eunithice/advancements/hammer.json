@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "eunithice:stone_hammer"
+    },
+    "title": {
+      "translate": "advancements.eunithice.hammer.title"
+    },
+    "description": {
+      "translate": "advancements.eunithice.hammer.description"
+    },
+    "background": "eunithice:textures/gui/advancements/background/s_dense_iron_plate_block.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent":"eunithice:root",
+  "criteria": {
+    "hammer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "eunithice:stone_hammer"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "hammer"
+    ]
+  ]
+}

@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        " Q#",
+        "Q  "
+    ],
+    "key": {
+        "#": {
+            "item": "eunithice:hardened_diamond_plate"
+        },
+        "Q": {
+            "tag": "forge:rods/wooden"
+        }
+    },
+    "result": {
+        "item": "eunithice:plated_diamond_hammer"
+    }
+}

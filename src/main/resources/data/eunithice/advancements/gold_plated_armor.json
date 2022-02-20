@@ -1,0 +1,58 @@
+{
+  "display": {
+    "icon": {
+      "item": "eunithice:plated_gold_chestplate"
+    },
+    "title": {
+      "translate": "advancements.eunithice.plated_gold_armor.title"
+    },
+    "description": {
+      "translate": "advancements.eunithice.plated_gold_armor.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "eunithice:super_dense_plate_block_gold",
+  "criteria": {
+    "gold_plated_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "eunithice:plated_gold_helmet"
+            ]
+          },
+          {
+            "items": [
+              "eunithice:plated_gold_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "eunithice:plated_gold_leggings"
+            ]
+          },
+          {
+            "items": [
+              "eunithice:plated_gold_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "gold_plated_armor"
+    ]
+  ],
+  "rewards": {
+    "experience": 500,
+    "loot": [
+    	"eunithice:advancement_rewards/gold_plate_armor"
+    ]
+  }
+}

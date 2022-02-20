@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "NDN",
+        "NNN"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:nether_star"
+        },
+        "D": {
+            "item": "eunithice:extraction_core"
+        },
+        "N": {
+            "item": "minecraft:netherite_scrap"
+        }
+    },
+    "result": {
+        "item": "eunithice:nether_core"
+    }
+}

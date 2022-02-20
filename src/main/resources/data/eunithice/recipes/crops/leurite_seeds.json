@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "?#?",
+    "#Q#",
+    "?#?"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond_block"
+    },
+    "Q": {
+      "tag": "eunithice:iron_hammers_up"
+    },
+    "?": {
+      "item": "eunithice:gold_plate_block"
+    }
+  },
+  "result": {
+    "item": "eunithice:leurite_seeds",
+    "count": 1
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "eunithice:super_dense_gold_plate_block"
+    },
+    "title": {
+      "translate": "advancements.eunithice.super_dense_plate_block_gold.title"
+    },
+    "description": {
+      "translate": "advancements.eunithice.super_dense_plate_block_gold.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent":"eunithice:gold_plate",
+  "criteria": {
+    "super_compress": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "eunithice:super_dense_gold_plate_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "super_compress"
+    ]
+  ]
+}

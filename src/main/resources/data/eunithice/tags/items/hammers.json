@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"eunithice:wood_hammer",
+		"eunithice:stone_hammer",
+		"eunithice:iron_hammer",
+		"eunithice:diamond_hammer"
+	]
+}

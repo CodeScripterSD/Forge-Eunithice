@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "eunithice:gold_plate"
+    },
+    "title": {
+      "translate": "advancements.eunithice.gold_plate.title"
+    },
+    "description": {
+      "translate": "advancements.eunithice.gold_plate.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent":"eunithice:extraction_core",
+  "criteria": {
+    "g_plate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "eunithice:gold_plate"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "g_plate"
+    ]
+  ]
+}

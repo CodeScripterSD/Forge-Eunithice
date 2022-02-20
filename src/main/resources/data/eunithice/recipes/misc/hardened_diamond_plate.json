@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "?#?",
+    "#Q#",
+    "?#?"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:obsidian"
+    },
+    "Q": {
+      "item": "eunithice:nether_core"
+    },
+    "?": {
+      "item": "eunithice:charred_diamond"
+    }
+  },
+  "result": {
+    "item": "eunithice:hardened_diamond_plate",
+    "count": 8
+  }
+}

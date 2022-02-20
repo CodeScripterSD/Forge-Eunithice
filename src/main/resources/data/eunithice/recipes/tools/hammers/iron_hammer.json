@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        " Q#",
+        "Q  "
+    ],
+    "key": {
+        "#": {
+            "item": "eunithice:iron_plate"
+        },
+        "Q": {
+            "tag": "forge:rods/wooden"
+        }
+    },
+    "result": {
+        "item": "eunithice:iron_hammer"
+    }
+}

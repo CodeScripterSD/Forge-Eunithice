@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:advancement_reward",
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "eunithice:wood_hammer"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 19,
+          "name": "eunithice:revival_sandwich"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "eunithice:iron_hammer"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "eunithice:gold_plate_block"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "eunithice:plated_iron_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:iron_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "eunithice:burn_core"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 25,
+          "name": "eunithice:jump_imbued_asphalt"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 14,
+          "name": "minecraft:netherite_scrap"
+        }
+      ]
+    }
+  ]
+}

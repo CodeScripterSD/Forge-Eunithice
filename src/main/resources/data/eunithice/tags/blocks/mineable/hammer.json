@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "eunithice:super_dense_iron_plate_block",
+    "eunithice:super_dense_gold_plate_block",
+    "eunithice:super_dense_diamond_plate_block",
+
+    "eunithice:dense_iron_plate_block",
+    "eunithice:dense_gold_plate_block",
+    "eunithice:dense_diamond_plate_block",
+
+    "eunithice:iron_plate_block",
+    "eunithice:gold_plate_block",
+    "eunithice:diamond_plate_block"
+  ]
+}

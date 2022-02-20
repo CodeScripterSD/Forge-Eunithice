@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item":"eunithice:charred_diamond"
+    },
+    {
+      "item":"minecraft:obsidian"
+    },
+    {
+      "item": "eunithice:nether_core"
+    }
+  ],
+  "result": {
+    "item": "eunithice:hardened_diamond_plate",
+    "count": 2
+  }
+}

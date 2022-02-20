@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "eunithice:iron_plate_block"
+    },
+    "title": {
+      "translate": "advancements.eunithice.compact_plate_block_iron.title"
+    },
+    "description": {
+      "translate": "advancements.eunithice.compact_plate_block_iron.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent":"eunithice:plate",
+  "criteria": {
+    "compress": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "eunithice:iron_plate_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "compress"
+    ]
+  ]
+}

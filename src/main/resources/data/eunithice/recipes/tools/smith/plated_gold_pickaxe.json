@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "eunithice:plated_iron_pickaxe"
+    },
+    "addition": {
+        "item": "eunithice:dense_gold_plate_block"
+    },
+    "result": {
+        "item": "eunithice:plated_gold_pickaxe"
+    }
+}

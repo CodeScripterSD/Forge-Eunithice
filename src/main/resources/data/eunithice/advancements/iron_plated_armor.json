@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "item": "eunithice:plated_iron_chestplate"
+    },
+    "title": {
+      "translate": "advancements.eunithice.plated_iron_armor.title"
+    },
+    "description": {
+      "translate": "advancements.eunithice.plated_iron_armor.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "eunithice:compact_plate_block_iron",
+  "criteria": {
+    "iron_plated_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "eunithice:plated_iron_helmet"
+            ]
+          },
+          {
+            "items": [
+              "eunithice:plated_iron_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "eunithice:plated_iron_leggings"
+            ]
+          },
+          {
+            "items": [
+              "eunithice:plated_iron_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "iron_plated_armor"
+    ]
+  ]
+}

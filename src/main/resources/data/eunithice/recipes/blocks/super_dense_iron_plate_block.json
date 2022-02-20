@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "eunithice:dense_iron_plate_block"
+    }
+  },
+  "result": {
+    "item": "eunithice:super_dense_iron_plate_block"
+  }
+}

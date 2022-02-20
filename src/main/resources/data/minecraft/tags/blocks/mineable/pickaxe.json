@@ -1,0 +1,20 @@
+{
+	"replace": false,
+	"values": [
+		"eunithice:speed_imbued_asphalt",
+		"eunithice:speed_imbued_sand",
+		"eunithice:jump_imbued_asphalt",
+		"eunithice:honey_imbued_asphalt",
+		"eunithice:iron_plate_block",
+		"eunithice:dense_iron_plate_block",
+		"eunithice:super_dense_iron_plate_block",
+		"eunithice:gold_plate_block",
+		"eunithice:dense_gold_plate_block",
+		"eunithice:super_dense_gold_plate_block",
+		"eunithice:diamond_plate_block",
+		"eunithice:dense_diamond_plate_block",
+		"eunithice:super_dense_diamond_plate_block",
+		"eunithice:iron_plate_door",
+		"eunithice:iron_plate_trapdoor"
+	]
+}

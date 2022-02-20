@@ -1,4 +1,4 @@
-package com.craftminerd.eunithice.block;
+package com.craftminerd.eunithice.block.custom;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.entity.Entity;
@@ -7,6 +7,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.Vec3;
+import org.jetbrains.annotations.NotNull;
 
 public class JumpImbuedAsphalt extends Block {
 
@@ -20,7 +21,7 @@ public class JumpImbuedAsphalt extends Block {
         return 2f;
     }
 
-    public void stepOn(Level world, BlockPos p_154574_, BlockState p_154575_, Entity entity) {
+    public void stepOn(@NotNull Level world, @NotNull BlockPos p_154574_, @NotNull BlockState p_154575_, Entity entity) {
 
 
         if (!entity.isSteppingCarefully()) this.bounceUp(entity);

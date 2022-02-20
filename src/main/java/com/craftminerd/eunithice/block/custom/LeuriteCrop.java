@@ -1,4 +1,4 @@
-package com.craftminerd.eunithice.block;
+package com.craftminerd.eunithice.block.custom;
 
 import com.craftminerd.eunithice.item.EunithiceItems;
 import net.minecraft.core.BlockPos;
@@ -9,6 +9,7 @@ import net.minecraft.world.level.block.CropBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
+import org.jetbrains.annotations.NotNull;
 
 public class LeuriteCrop extends CropBlock {
     VoxelShape[] SHAPE_BY_AGE = new VoxelShape[]{
@@ -26,11 +27,11 @@ public class LeuriteCrop extends CropBlock {
         // TODO Auto-generated constructor stub
     }
 
-    protected ItemLike getBaseSeedId() {
+    protected @NotNull ItemLike getBaseSeedId() {
         return EunithiceItems.LEURITE_SEEDS.get();
     }
 
-    public VoxelShape getShape(BlockState p_55200_, BlockGetter p_55201_, BlockPos p_55202_, CollisionContext p_55203_) {
+    public @NotNull VoxelShape getShape(BlockState p_55200_, @NotNull BlockGetter p_55201_, @NotNull BlockPos p_55202_, @NotNull CollisionContext p_55203_) {
         return SHAPE_BY_AGE[p_55200_.getValue(this.getAgeProperty())];
     }
 

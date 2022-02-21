@@ -48,6 +48,12 @@
   "item.eunithice.plated_gold_hoe":"Plated Gold Hoe",
   "item.eunithice.plated_gold_sword":"Plated Gold Sword",
 
+  "item.eunithice.plated_diamond_shovel":"Plated Diamond Shovel",
+  "item.eunithice.plated_diamond_axe":"Plated Diamond Axe",
+  "item.eunithice.plated_diamond_pickaxe":"Plated Diamond Pickaxe",
+  "item.eunithice.plated_diamond_hoe":"Plated Diamond Hoe",
+  "item.eunithice.plated_diamond_sword":"Plated Diamond Sword",
+
   "item.eunithice.plated_iron_boots":"Plated Iron Boots",
   "item.eunithice.plated_iron_leggings":"Plated Iron Leggings",
   "item.eunithice.plated_iron_chestplate":"Plated Iron Chestplate",
@@ -81,7 +87,6 @@
   "tooltip.eunithice.common_hammer_tooltip": "\u00A77Used for instantly breaking plated blocks on right click",
   "tooltip.eunithice.diamond_hammer_tooltip": "\u00A75\u00A7oCan be used to right click harvest obsidian instantly",
   "tooltip.eunithice.bedrock_hammer_tooltip1": "\u00A75\u00A7oHarvests Bedrock!",
-  "tooltip.eunithice.bedrock_hammer_tooltip2": "\u00A74CREATIVE ITEM",
 
   "advancements.eunithice.root.description":"As good a day as any to get to work!",
   "advancements.eunithice.root.title":"Eunithice",

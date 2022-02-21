@@ -16,10 +16,10 @@ public enum EunithiceArmorMaterials implements ArmorMaterial {
     PLATED_IRON("plated_iron",27, new int[] { 3, 6, 7, 3 }, 20, SoundEvents.ARMOR_EQUIP_IRON, 0.0f, 0.0f, () -> {
         return Ingredient.of(EunithiceBlocks.IRON_PLATE_BLOCK.get());
     }),
-    PLATED_GOLD("plated_gold",50, new int[] { 5, 7, 9, 5 }, 90, SoundEvents.ARMOR_EQUIP_GOLD, 2.0f, 0.1f, () -> {
+    PLATED_GOLD("plated_gold",50, new int[] { 5, 7, 9, 5 }, 60, SoundEvents.ARMOR_EQUIP_GOLD, 2.0f, 0.1f, () -> {
         return Ingredient.of(EunithiceBlocks.DENSE_GOLD_PLATE_BLOCK.get());
     }),
-    PLATED_DIAMOND("plated_diamond",80, new int[] { 7, 9, 11, 7 }, 120, SoundEvents.ARMOR_EQUIP_DIAMOND, 3.0f, 0.1f, () -> {
+    PLATED_DIAMOND("plated_diamond",80, new int[] { 7, 9, 11, 7 }, 90, SoundEvents.ARMOR_EQUIP_DIAMOND, 3.0f, 0.1f, () -> {
         return Ingredient.of(EunithiceBlocks.DIAMOND_PLATE_BLOCK.get());
     });
 

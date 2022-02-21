@@ -58,7 +58,6 @@ public class BedrockHammer extends DiggerItem {
         // TODO Auto-generated method stub
 
         pToolTipComponents.add(new TranslatableComponent("tooltip.eunithice.bedrock_hammer_tooltip1"));
-        pToolTipComponents.add(new TranslatableComponent("tooltip.eunithice.bedrock_hammer_tooltip2"));
 
         super.appendHoverText(pStack, pLevel, pToolTipComponents, pIsAdvanced);
     }

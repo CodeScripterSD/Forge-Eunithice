@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "eunithice:plated_gold_hoe"
+    },
+    "addition": {
+        "item": "eunithice:diamond_plate_block"
+    },
+    "result": {
+        "item": "eunithice:plated_diamond_hoe"
+    }
+}

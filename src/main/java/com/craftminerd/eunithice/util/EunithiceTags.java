@@ -23,9 +23,6 @@ public class EunithiceTags {
     }
 
     public static class Items {
-
-        public static final Tags.IOptionalNamedTag<Item> CROPS = forgeTag("crops");
-
         private static Tags.IOptionalNamedTag<Item> tag(String name) {
             return ItemTags.createOptional(new ResourceLocation(Eunithice.MODID, name));
         }

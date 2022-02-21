@@ -11,9 +11,9 @@ import java.util.function.Supplier;
 public enum EunithiceToolTiers implements Tier {
     PLATED_IRON(3, 750, 14.0f, 2.5f, 20,
             () -> Ingredient.of(EunithiceBlocks.IRON_PLATE_BLOCK.get())),
-    PLATED_GOLD(4, 1600, 20.0f, 3.5f, 90,
-            () -> Ingredient.of(EunithiceBlocks.DENSE_GOLD_PLATE_BLOCK.get())),
-    PLATED_DIAMOND(5, 3200, 30.0f, 5.0f, 120,
+    PLATED_GOLD(4, 1600, 20.0f, 3.5f, 60,
+            () -> Ingredient.of(EunithiceBlocks.GOLD_PLATE_BLOCK.get())),
+    PLATED_DIAMOND(5, 3200, 30.0f, 5.0f, 90,
             () -> Ingredient.of(EunithiceItems.HARDENED_DIAMOND_PLATE.get()));
 
     private final int level;

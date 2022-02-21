@@ -135,6 +135,26 @@ public class EunithiceItems {
             () -> new SwordItem(EunithiceToolTiers.PLATED_GOLD, 3, -2.4f, new Item.Properties()
                     .tab(Eunithice.EUNITHICE_ITEMS)));
 
+    public static final RegistryObject<ShovelItem> PLATED_DIAMOND_SHOVEL = ITEMS.register("plated_diamond_shovel",
+            () -> new ShovelItem(EunithiceToolTiers.PLATED_DIAMOND, 1.5f, -2.6f, new Item.Properties()
+                    .tab(Eunithice.EUNITHICE_ITEMS)));
+
+    public static final RegistryObject<PickaxeItem> PLATED_DIAMOND_PICKAXE = ITEMS.register("plated_diamond_pickaxe",
+            () -> new PickaxeItem(EunithiceToolTiers.PLATED_DIAMOND, 1, -2.6f, new Item.Properties()
+                    .tab(Eunithice.EUNITHICE_ITEMS)));
+
+    public static final RegistryObject<AxeItem> PLATED_DIAMOND_AXE = ITEMS.register("plated_diamond_axe",
+            () -> new AxeItem(EunithiceToolTiers.PLATED_DIAMOND, 6.2f, -2.6f, new Item.Properties()
+                    .tab(Eunithice.EUNITHICE_ITEMS)));
+
+    public static final RegistryObject<HoeItem> PLATED_DIAMOND_HOE = ITEMS.register("plated_diamond_hoe",
+            () -> new HoeItem(EunithiceToolTiers.PLATED_DIAMOND, -3, 0.2f, new Item.Properties()
+                    .tab(Eunithice.EUNITHICE_ITEMS)));
+
+    public static final RegistryObject<SwordItem> PLATED_DIAMOND_SWORD = ITEMS.register("plated_diamond_sword",
+            () -> new SwordItem(EunithiceToolTiers.PLATED_DIAMOND, 3, -2f, new Item.Properties()
+                    .tab(Eunithice.EUNITHICE_ITEMS)));
+
     ///////////////////////////////////////////////////////
     ////////////// Armor
     ///////////////////////////////////////////////////////
@@ -175,25 +195,21 @@ public class EunithiceItems {
 
 
 
-//    public static final RegistryObject<ArmorItem> PLATED_DIAMOND_HELMET = ITEMS.register("plated_diamond_helmet",
-//            () -> new ArmorItem(EunithiceArmorMaterials.PLATED_DIAMOND, EquipmentSlot.HEAD, new Item.Properties()
-//                    .tab(Eunithice.EUNITHICE_ITEMS)
-//                    .defaultDurability(800)));
-//
-//    public static final RegistryObject<ArmorItem> PLATED_DIAMOND_CHESTPLATE = ITEMS.register("plated_diamond_chestplate",
-//            () -> new ArmorItem(EunithiceArmorMaterials.PLATED_DIAMOND, EquipmentSlot.CHEST, new Item.Properties()
-//                    .tab(Eunithice.EUNITHICE_ITEMS)
-//                    .defaultDurability(930)));
-//
-//    public static final RegistryObject<ArmorItem> PLATED_DIAMOND_LEGGINGS = ITEMS.register("plated_diamond_leggings",
-//            () -> new ArmorItem(EunithiceArmorMaterials.PLATED_DIAMOND, EquipmentSlot.LEGS, new Item.Properties()
-//                    .tab(Eunithice.EUNITHICE_ITEMS)
-//                    .defaultDurability(910)));
-//
-//    public static final RegistryObject<ArmorItem> PLATED_DIAMOND_BOOTS = ITEMS.register("plated_diamond_boots",
-//            () -> new ArmorItem(EunithiceArmorMaterials.PLATED_DIAMOND, EquipmentSlot.FEET, new Item.Properties()
-//                    .tab(Eunithice.EUNITHICE_ITEMS)
-//                    .defaultDurability(800)));
+    public static final RegistryObject<ArmorItem> PLATED_DIAMOND_HELMET = ITEMS.register("plated_diamond_helmet",
+            () -> new ArmorItem(EunithiceArmorMaterials.PLATED_DIAMOND, EquipmentSlot.HEAD, new Item.Properties()
+                    .tab(Eunithice.EUNITHICE_ITEMS)));
+
+    public static final RegistryObject<ArmorItem> PLATED_DIAMOND_CHESTPLATE = ITEMS.register("plated_diamond_chestplate",
+            () -> new ArmorItem(EunithiceArmorMaterials.PLATED_DIAMOND, EquipmentSlot.CHEST, new Item.Properties()
+                    .tab(Eunithice.EUNITHICE_ITEMS)));
+
+    public static final RegistryObject<ArmorItem> PLATED_DIAMOND_LEGGINGS = ITEMS.register("plated_diamond_leggings",
+            () -> new ArmorItem(EunithiceArmorMaterials.PLATED_DIAMOND, EquipmentSlot.LEGS, new Item.Properties()
+                    .tab(Eunithice.EUNITHICE_ITEMS)));
+
+    public static final RegistryObject<ArmorItem> PLATED_DIAMOND_BOOTS = ITEMS.register("plated_diamond_boots",
+            () -> new ArmorItem(EunithiceArmorMaterials.PLATED_DIAMOND, EquipmentSlot.FEET, new Item.Properties()
+                    .tab(Eunithice.EUNITHICE_ITEMS)));
 
 
     ///////////////////////////////////////////////////////

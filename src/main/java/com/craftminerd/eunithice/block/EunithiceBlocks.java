@@ -46,13 +46,30 @@ public class EunithiceBlocks {
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.BASALT)),
             Eunithice.EUNITHICE_ITEMS);
+    public static final RegistryObject<Block> JUMP_IMBUED_SAND = registerBlock("jump_imbued_sand",
+            () -> new JumpImbuedSand(1,BlockBehaviour.Properties
+                    .of(Material.STONE, MaterialColor.COLOR_BLACK)
+                    .strength(0.3f, 20f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.BASALT)),
+            Eunithice.EUNITHICE_ITEMS);
 
     public static final RegistryObject<Block> SPEED_IMBUED_ASPHALT = registerBlock("speed_imbued_asphalt",
             () -> new SpeedImbuedAsphalt(BlockBehaviour.Properties
                     .of(Material.STONE, MaterialColor.COLOR_BLACK)
                     .strength(0.3f, 20f)
                     .requiresCorrectToolForDrops()
-                    .sound(SoundType.BASALT)),
+                    .sound(SoundType.BASALT),
+                    1.9D),
+            Eunithice.EUNITHICE_ITEMS);
+
+    public static final RegistryObject<Block> SPEED_INSANITY_BLOCK = registerBlock("speed_insanity_block",
+            () -> new SpeedImbuedAsphalt(BlockBehaviour.Properties
+                    .of(Material.STONE, MaterialColor.COLOR_BLACK)
+                    .strength(0.3f, 20f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.BASALT),
+                    20.0D),
             Eunithice.EUNITHICE_ITEMS);
 
     public static final RegistryObject<Block> SPEED_IMBUED_SAND = registerBlock("speed_imbued_sand",
@@ -60,11 +77,20 @@ public class EunithiceBlocks {
                     .of(Material.SAND, MaterialColor.COLOR_BLACK)
                     .strength(0.3f, 15f)
                     .requiresCorrectToolForDrops()
-                    .sound(SoundType.SAND)),
+                    .sound(SoundType.SAND),
+                    1.9D),
             Eunithice.EUNITHICE_ITEMS);
 
     public static final RegistryObject<Block> HONEY_IMBUED_ASPHALT = registerBlock("honey_imbued_asphalt",
             () -> new HoneyImbuedAsphalt(BlockBehaviour.Properties
+                    .of(Material.STONE, MaterialColor.COLOR_BLACK)
+                    .strength(0.3f, 20f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.BASALT)),
+            Eunithice.EUNITHICE_ITEMS);
+
+    public static final RegistryObject<Block> HONEY_IMBUED_SAND = registerBlock("honey_imbued_sand",
+            () -> new HoneyImbuedSand(1,BlockBehaviour.Properties
                     .of(Material.STONE, MaterialColor.COLOR_BLACK)
                     .strength(0.3f, 20f)
                     .requiresCorrectToolForDrops()
@@ -145,6 +171,14 @@ public class EunithiceBlocks {
                     .sound(SoundType.METAL)),
             Eunithice.EUNITHICE_ITEMS);
 
+    public static  final RegistryObject<Block> CHARRED_DIAMOND_BLOCK = registerBlock("charred_diamond_block",
+            () -> new Block(BlockBehaviour.Properties
+                    .of(Material.METAL, MaterialColor.COLOR_BLUE)
+                    .strength(22f, 25f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.AMETHYST)),
+            Eunithice.EUNITHICE_ITEMS);
+
 
 
     public static final RegistryObject<Block> IRON_PLATE_DOOR = registerBlock("iron_plate_door",
@@ -164,8 +198,6 @@ public class EunithiceBlocks {
                     .noOcclusion()
                     .sound(SoundType.METAL)),
             Eunithice.EUNITHICE_ITEMS);
-
-
 
     public static final RegistryObject<Block> LEURITE = BLOCKS.register("leurite_crop",
             () -> new LeuriteCrop(BlockBehaviour.Properties

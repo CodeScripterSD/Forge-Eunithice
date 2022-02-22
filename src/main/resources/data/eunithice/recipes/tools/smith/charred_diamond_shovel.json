@@ -4,9 +4,9 @@
         "item": "eunithice:plated_gold_shovel"
     },
     "addition": {
-        "item": "eunithice:diamond_plate_block"
+        "item": "eunithice:charred_diamond_block"
     },
     "result": {
-        "item": "eunithice:plated_diamond_shovel"
+        "item": "eunithice:charred_diamond_shovel"
     }
 }

@@ -4,9 +4,9 @@
         "item": "eunithice:plated_gold_hoe"
     },
     "addition": {
-        "item": "eunithice:diamond_plate_block"
+        "item": "eunithice:charred_diamond_block"
     },
     "result": {
-        "item": "eunithice:plated_diamond_hoe"
+        "item": "eunithice:charred_diamond_hoe"
     }
 }

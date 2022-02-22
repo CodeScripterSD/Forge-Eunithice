@@ -10,9 +10,10 @@ import net.minecraft.world.phys.Vec3;
 import org.jetbrains.annotations.NotNull;
 
 public class SpeedImbuedAsphalt extends Block {
-
-    public SpeedImbuedAsphalt(Properties properties) {
+    private double speedUpMultiplier;
+    public SpeedImbuedAsphalt(Properties properties, double speedUpMultiplier) {
         super(properties);
+        this.speedUpMultiplier = speedUpMultiplier;
         // TODO Auto-generated constructor stub
     }
 
@@ -24,10 +25,9 @@ public class SpeedImbuedAsphalt extends Block {
     }
 
     private void speedUp(Entity entity) {
-        double speedUpFactor = 1.9D;
         Vec3 vec3 = entity.getDeltaMovement();
 
-        entity.setDeltaMovement(vec3.x * speedUpFactor, vec3.y, vec3.z * speedUpFactor);
+        entity.setDeltaMovement(vec3.x * this.speedUpMultiplier, vec3.y, vec3.z * this.speedUpMultiplier);
     }
 
 }

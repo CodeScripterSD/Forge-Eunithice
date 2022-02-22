@@ -10,9 +10,11 @@ import net.minecraft.world.phys.Vec3;
 import org.jetbrains.annotations.NotNull;
 
 public class SpeedImbuedSand extends FallingBlock {
+    private double speedUpMultiplier;
     private final int dustColor;
-    public SpeedImbuedSand(int dustColor, Properties properties) {
+    public SpeedImbuedSand(int dustColor, Properties properties, double speedUpMultiplier) {
         super(properties);
+        this.speedUpMultiplier = speedUpMultiplier;
         this.dustColor = dustColor;
     }
 
@@ -20,15 +22,7 @@ public class SpeedImbuedSand extends FallingBlock {
         return this.dustColor;
     }
 
-//	@Override
-//	public float getSpeedFactor() {
-//		// TODO Auto-generated method stub
-//		return 1.9f;
-//	}
-
     public void stepOn(@NotNull Level world, @NotNull BlockPos p_154574_, @NotNull BlockState p_154575_, Entity entity) {
-
-
         if (!entity.isSteppingCarefully()) this.speedUp(entity);
         super.stepOn(world, p_154574_, p_154575_, entity);
     }

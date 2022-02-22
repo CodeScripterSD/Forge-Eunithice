@@ -1,19 +1,25 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "###",
-        "NDN",
-        "NNN"
+        "#A#",
+        "BCB",
+        "#D#"
     ],
     "key": {
-        "#": {
-            "item": "minecraft:nether_star"
+        "B": {
+            "item": "minecraft:netherite_ingot"
         },
         "D": {
-            "item": "eunithice:extraction_core"
+            "item": "eunithice:burn_core"
         },
-        "N": {
-            "item": "minecraft:netherite_scrap"
+        "A": {
+            "tag": "eunithice:diamond_hammers_up"
+        },
+        "C": {
+            "item": "eunithice:super_dense_iron_plate_block"
+        },
+        "#": {
+            "item": "eunithice:stone_sheet"
         }
     },
     "result": {

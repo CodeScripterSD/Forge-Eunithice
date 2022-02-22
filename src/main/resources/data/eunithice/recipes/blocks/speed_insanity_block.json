@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SXS",
+    "XDX",
+    "SXS"
+  ],
+  "key": {
+    "S": {
+      "item": "eunithice:speed_imbued_asphalt"
+    },
+    "D": {
+      "item": "eunithice:diamond_plate_block"
+    },
+    "X": {
+      "item": "minecraft:blue_ice"
+    }
+  },
+  "result": {
+    "item": "eunithice:speed_insanity_block",
+    "count": 8
+  }
+}

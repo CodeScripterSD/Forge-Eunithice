@@ -28,6 +28,11 @@ public class CoreType extends Item {
         return false;
     }
 
+    @Override
+    public boolean isEnchantable(ItemStack pStack) {
+        return false;
+    }
+
     @Nonnull
     @Override
     public ItemStack getContainerItem(@Nonnull ItemStack itemstack) {

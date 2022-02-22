@@ -51,6 +51,11 @@ public class BurnCore extends CoreType {
     }
 
     @Override
+    public boolean isFoil(ItemStack pStack) {
+        return true;
+    }
+
+    @Override
     public InteractionResult useOn(UseOnContext pContext) {
         Player player = pContext.getPlayer();
         Level level = pContext.getLevel();

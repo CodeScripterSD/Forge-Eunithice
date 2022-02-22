@@ -24,7 +24,7 @@ public class HoneyImbuedAsphalt extends Block {
     private void slowDown(Entity entity) {
         double slowDownFactor = 0.6D;
         Vec3 vec3 = entity.getDeltaMovement();
-        if (vec3.x > 0.25D || vec3.z > 0.25D) {
+        if (vec3.x > 0.10D || vec3.z > 0.10D) {
             entity.setDeltaMovement(vec3.x * slowDownFactor, vec3.y * slowDownFactor, vec3.z * slowDownFactor);
         }
     }

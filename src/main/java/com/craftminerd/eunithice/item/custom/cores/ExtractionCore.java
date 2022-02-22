@@ -30,6 +30,11 @@ public class ExtractionCore extends CoreType{
     }
 
     @Override
+    public boolean isFoil(ItemStack pStack) {
+        return true;
+    }
+
+    @Override
     public InteractionResultHolder<ItemStack> use(Level pLevel, Player pPlayer, InteractionHand pUsedHand) {
         if (pPlayer.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED, 1800, 1))) hurtItem(pPlayer.getItemInHand(pUsedHand));
         return InteractionResultHolder.success(pPlayer.getItemInHand(pUsedHand));

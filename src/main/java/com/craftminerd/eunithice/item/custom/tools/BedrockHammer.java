@@ -16,12 +16,11 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 
 import java.util.List;
-import java.util.Random;
 
 public class BedrockHammer extends DiggerItem {
 
     public BedrockHammer(Properties pProperties) {
-        super(20000f, 20000f, EunithiceToolTiers.PLATED_DIAMOND, EunithiceTags.Blocks.MINEABLE_WITH_HAMMER, pProperties);
+        super(20000f, 20000f, EunithiceToolTiers.CHARRED_DIAMOND, EunithiceTags.Blocks.MINEABLE_WITH_HAMMER, pProperties);
     }
     @Override
     public boolean isRepairable(ItemStack stack) {

@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#N#",
+        "NDN",
+        "ANA"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:nether_star"
+        },
+        "D": {
+            "item": "eunithice:nether_core"
+        },
+        "N": {
+            "item": "minecraft:netherite_scrap"
+        },
+        "A": {
+            "item": "minecraft:netherite_ingot"
+        }
+    },
+    "result": {
+        "item": "eunithice:superheated_nether_core"
+    }
+}

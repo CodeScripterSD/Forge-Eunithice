@@ -10,6 +10,8 @@
   "block.eunithice.dense_gold_plate_block":"Dense Plated Gold Block",
   "block.eunithice.super_dense_gold_plate_block":"Ultimate Dense Plated Gold Block",
 
+  "block.eunithice.charred_diamond_block":"Block of Charred Diamond",
+
   "block.eunithice.diamond_plate_block":"Plated Diamond Block",
   "block.eunithice.dense_diamond_plate_block":"Dense Plated Diamond Block",
   "block.eunithice.super_dense_diamond_plate_block":"Ultimate Dense Plated Diamond Block",
@@ -17,6 +19,10 @@
   "block.eunithice.speed_imbued_asphalt":"Speed Imbued Asphalt",
   "block.eunithice.jump_imbued_asphalt":"Jump Imbued Asphalt",
   "block.eunithice.honey_imbued_asphalt":"Honey Imbued Asphalt",
+  "block.eunithice.speed_insanity_block":"Speed Insanity Block",
+
+  "block.eunithice.jump_imbued_sand":"Jump Imbued Sand",
+  "block.eunithice.honey_imbued_sand":"Honey Imbued Sand",
   "block.eunithice.speed_imbued_sand":"Speed Imbued Sand",
 
   "item.eunithice.stone_sheet": "Stone Sheet",
@@ -28,6 +34,7 @@
   "item.eunithice.extraction_core":"Extraction Core",
   "item.eunithice.burn_core":"Burn Core",
   "item.eunithice.nether_core":"Core of the Nether",
+  "item.eunithice.superheated_nether_core":"Superheated Core of the Nether",
 
   "item.eunithice.wood_hammer":"Wood Hammer",
   "item.eunithice.stone_hammer":"Stone Hammer",
@@ -48,6 +55,13 @@
   "item.eunithice.plated_gold_hoe":"Plated Gold Hoe",
   "item.eunithice.plated_gold_sword":"Plated Gold Sword",
 
+
+  "item.eunithice.charred_diamond_shovel":"Charred Diamond Shovel",
+  "item.eunithice.charred_diamond_axe":"Charred Diamond Axe",
+  "item.eunithice.charred_diamond_pickaxe":"Charred Diamond Pickaxe",
+  "item.eunithice.charred_diamond_hoe":"Charred Diamond Hoe",
+  "item.eunithice.charred_diamond_sword":"Charred Diamond Sword",
+
   "item.eunithice.plated_diamond_shovel":"Plated Diamond Shovel",
   "item.eunithice.plated_diamond_axe":"Plated Diamond Axe",
   "item.eunithice.plated_diamond_pickaxe":"Plated Diamond Pickaxe",
@@ -63,6 +77,11 @@
   "item.eunithice.plated_gold_leggings":"Plated Gold Leggings",
   "item.eunithice.plated_gold_chestplate":"Plated Gold Chestplate",
   "item.eunithice.plated_gold_helmet":"Plated Gold Helmet",
+
+  "item.eunithice.charred_diamond_boots":"Charred Diamond Boots",
+  "item.eunithice.charred_diamond_leggings":"Charred Diamond Leggings",
+  "item.eunithice.charred_diamond_chestplate":"Charred Diamond Chestplate",
+  "item.eunithice.charred_diamond_helmet":"Charred Diamond Helmet",
 
   "item.eunithice.plated_diamond_boots":"Plated Diamond Boots",
   "item.eunithice.plated_diamond_leggings":"Plated Diamond Leggings",
@@ -111,5 +130,8 @@
   "advancements.eunithice.extraction_core.description":"Craft an extraction core, used for many essential tasks.",
   "advancements.eunithice.extraction_core.title":"Exercise the Core",
 
-  "itemGroup.eunithice":"Eunithice Items"
+  "itemGroup.eunithice":"Eunithice Items",
+
+  "enchantment.eunithice.fire_thorns":"Fire Thorns",
+  "enchantment.eunithice.slowness_thorns":"Slowing"
 }

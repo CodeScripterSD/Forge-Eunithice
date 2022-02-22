@@ -4,9 +4,9 @@
         "item": "eunithice:plated_gold_sword"
     },
     "addition": {
-        "item": "eunithice:diamond_plate_block"
+        "item": "eunithice:charred_diamond_block"
     },
     "result": {
-        "item": "eunithice:plated_diamond_sword"
+        "item": "eunithice:charred_diamond_sword"
     }
 }

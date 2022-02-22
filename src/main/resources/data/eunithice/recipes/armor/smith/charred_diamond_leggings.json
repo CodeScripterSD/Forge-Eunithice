@@ -4,9 +4,9 @@
         "item": "eunithice:plated_gold_leggings"
     },
     "addition": {
-        "item": "eunithice:diamond_plate_block"
+        "item": "eunithice:charred_diamond_block"
     },
     "result": {
-        "item": "eunithice:plated_diamond_leggings"
+        "item": "eunithice:charred_diamond_leggings"
     }
 }

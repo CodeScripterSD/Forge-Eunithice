@@ -18,7 +18,7 @@ import java.util.List;
 
 public class DiamondHammer extends HammerItem {
     public DiamondHammer(Properties pProperties) {
-        super(0f, -1f, EunithiceToolTiers.PLATED_DIAMOND, pProperties);
+        super(0f, -1f, EunithiceToolTiers.CHARRED_DIAMOND, pProperties);
     }
 
     @Override

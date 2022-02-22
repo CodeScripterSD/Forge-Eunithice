@@ -2,6 +2,7 @@ package com.craftminerd.eunithice.item.custom.tiers;
 
 import com.craftminerd.eunithice.Eunithice;
 import com.craftminerd.eunithice.block.EunithiceBlocks;
+import com.craftminerd.eunithice.item.EunithiceItems;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.LazyLoadedValue;
@@ -16,10 +17,13 @@ public enum EunithiceArmorMaterials implements ArmorMaterial {
     PLATED_IRON("plated_iron",27, new int[] { 3, 6, 7, 3 }, 20, SoundEvents.ARMOR_EQUIP_IRON, 0.0f, 0.0f, () -> {
         return Ingredient.of(EunithiceBlocks.IRON_PLATE_BLOCK.get());
     }),
-    PLATED_GOLD("plated_gold",50, new int[] { 5, 7, 9, 5 }, 60, SoundEvents.ARMOR_EQUIP_GOLD, 2.0f, 0.1f, () -> {
+    PLATED_GOLD("plated_gold",60, new int[] { 5, 7, 9, 5 }, 60, SoundEvents.ARMOR_EQUIP_GOLD, 2.0f, 0.1f, () -> {
         return Ingredient.of(EunithiceBlocks.DENSE_GOLD_PLATE_BLOCK.get());
     }),
-    PLATED_DIAMOND("plated_diamond",80, new int[] { 7, 9, 11, 7 }, 90, SoundEvents.ARMOR_EQUIP_DIAMOND, 3.0f, 0.1f, () -> {
+    CHARRED_DIAMOND("charred_diamond",90, new int[] { 7, 9, 11, 7 }, 90, SoundEvents.ARMOR_EQUIP_DIAMOND, 3.0f, 0.1f, () -> {
+        return Ingredient.of(EunithiceBlocks.CHARRED_DIAMOND_BLOCK.get());
+    }),
+    PLATED_DIAMOND("plated_diamond",150, new int[] { 10, 12, 14, 10 }, 200, SoundEvents.ARMOR_EQUIP_DIAMOND, 4.0f, 0.2f, () -> {
         return Ingredient.of(EunithiceBlocks.DIAMOND_PLATE_BLOCK.get());
     });
 

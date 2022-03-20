@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item":"eunithice:charred_diamond"
+      "item":"eunithice:diamond_fragment"
     },
     {
       "item":"minecraft:obsidian"

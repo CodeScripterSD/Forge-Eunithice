@@ -1,6 +1,6 @@
 {
 	"parent": "block/cube_all",
 	"textures": {
-		"all": "eunithice:blocks/charred_diamond_block"
+		"all": "eunithice:blocks/fragmented_block"
 	}
 }

@@ -4,9 +4,9 @@
         "item": "eunithice:plated_gold_boots"
     },
     "addition": {
-        "item": "eunithice:charred_diamond_block"
+        "item": "eunithice:fragmented_block"
     },
     "result": {
-        "item": "eunithice:charred_diamond_boots"
+        "item": "eunithice:fragmented_boots"
     }
 }

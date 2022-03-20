@@ -8,10 +8,7 @@ import com.craftminerd.eunithice.item.custom.cores.NetherCore;
 import com.craftminerd.eunithice.item.custom.foods.*;
 import com.craftminerd.eunithice.item.custom.tiers.EunithiceArmorMaterials;
 import com.craftminerd.eunithice.item.custom.tiers.EunithiceToolTiers;
-import com.craftminerd.eunithice.item.custom.tools.BedrockHammer;
-import com.craftminerd.eunithice.item.custom.tools.DiamondHammer;
-import com.craftminerd.eunithice.item.custom.tools.HammerItem;
-import com.craftminerd.eunithice.item.custom.tools.WoodHammer;
+import com.craftminerd.eunithice.item.custom.tools.*;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -28,6 +25,12 @@ public class EunithiceItems {
     }
 
     /// Begin Items
+
+
+    public static final RegistryObject<HandheldEnderChest> HANDHELD_ENDER_CHEST = ITEMS.register("handheld_ender_chest",
+            () -> new HandheldEnderChest(new Item.Properties()
+                    .tab(Eunithice.EUNITHICE_ITEMS)));
+
 
     public static final RegistryObject<BedrockHammer> BEDROCK_HAMMER = ITEMS.register("bedrock_hammer",
             () -> new BedrockHammer(new Item.Properties()
@@ -69,7 +72,7 @@ public class EunithiceItems {
             () -> new Item(new Item.Properties()
                     .tab(Eunithice.EUNITHICE_ITEMS)));
 
-    public static final RegistryObject<Item> CHARRED_DIAMOND = ITEMS.register("charred_diamond",
+    public static final RegistryObject<Item> DIAMOND_FRAGMENT = ITEMS.register("diamond_fragment",
             () -> new Item(new Item.Properties()
                     .tab(Eunithice.EUNITHICE_ITEMS)));
 
@@ -140,24 +143,24 @@ public class EunithiceItems {
             () -> new SwordItem(EunithiceToolTiers.PLATED_GOLD, 3, -2.4f, new Item.Properties()
                     .tab(Eunithice.EUNITHICE_ITEMS)));
 
-    public static final RegistryObject<ShovelItem> CHARRED_DIAMOND_SHOVEL = ITEMS.register("charred_diamond_shovel",
-            () -> new ShovelItem(EunithiceToolTiers.CHARRED_DIAMOND, 1.5f, -2.6f, new Item.Properties()
+    public static final RegistryObject<ShovelItem> FRAGMENTED_SHOVEL = ITEMS.register("fragmented_shovel",
+            () -> new ShovelItem(EunithiceToolTiers.DIAMOND_FRAGMENT, 1.5f, -2.6f, new Item.Properties()
                     .tab(Eunithice.EUNITHICE_ITEMS)));
 
-    public static final RegistryObject<PickaxeItem> CHARRED_DIAMOND_PICKAXE = ITEMS.register("charred_diamond_pickaxe",
-            () -> new PickaxeItem(EunithiceToolTiers.CHARRED_DIAMOND, 1, -2.6f, new Item.Properties()
+    public static final RegistryObject<PickaxeItem> FRAGMENTED_PICKAXE = ITEMS.register("fragmented_pickaxe",
+            () -> new PickaxeItem(EunithiceToolTiers.DIAMOND_FRAGMENT, 1, -2.6f, new Item.Properties()
                     .tab(Eunithice.EUNITHICE_ITEMS)));
 
-    public static final RegistryObject<AxeItem> CHARRED_DIAMOND_AXE = ITEMS.register("charred_diamond_axe",
-            () -> new AxeItem(EunithiceToolTiers.CHARRED_DIAMOND, 6.2f, -2.6f, new Item.Properties()
+    public static final RegistryObject<AxeItem> FRAGMENTED_AXE = ITEMS.register("fragmented_axe",
+            () -> new AxeItem(EunithiceToolTiers.DIAMOND_FRAGMENT, 6.2f, -2.6f, new Item.Properties()
                     .tab(Eunithice.EUNITHICE_ITEMS)));
 
-    public static final RegistryObject<HoeItem> CHARRED_DIAMOND_HOE = ITEMS.register("charred_diamond_hoe",
-            () -> new HoeItem(EunithiceToolTiers.CHARRED_DIAMOND, -3, 0.2f, new Item.Properties()
+    public static final RegistryObject<HoeItem> FRAGMENTED_HOE = ITEMS.register("fragmented_hoe",
+            () -> new HoeItem(EunithiceToolTiers.DIAMOND_FRAGMENT, -3, 0.2f, new Item.Properties()
                     .tab(Eunithice.EUNITHICE_ITEMS)));
 
-    public static final RegistryObject<SwordItem> CHARRED_DIAMOND_SWORD = ITEMS.register("charred_diamond_sword",
-            () -> new SwordItem(EunithiceToolTiers.CHARRED_DIAMOND, 3, -2f, new Item.Properties()
+    public static final RegistryObject<SwordItem> FRAGMENTED_SWORD = ITEMS.register("fragmented_sword",
+            () -> new SwordItem(EunithiceToolTiers.DIAMOND_FRAGMENT, 3, -2f, new Item.Properties()
                     .tab(Eunithice.EUNITHICE_ITEMS)));
 
     public static final RegistryObject<ShovelItem> PLATED_DIAMOND_SHOVEL = ITEMS.register("plated_diamond_shovel",
@@ -220,20 +223,20 @@ public class EunithiceItems {
 
 
 
-    public static final RegistryObject<ArmorItem> CHARRED_DIAMOND_HELMET = ITEMS.register("charred_diamond_helmet",
-            () -> new ArmorItem(EunithiceArmorMaterials.CHARRED_DIAMOND, EquipmentSlot.HEAD, new Item.Properties()
+    public static final RegistryObject<ArmorItem> FRAGMENTED_HELMET = ITEMS.register("fragmented_helmet",
+            () -> new ArmorItem(EunithiceArmorMaterials.DIAMOND_FRAGMENT, EquipmentSlot.HEAD, new Item.Properties()
                     .tab(Eunithice.EUNITHICE_ITEMS)));
 
-    public static final RegistryObject<ArmorItem> CHARRED_DIAMOND_CHESTPLATE = ITEMS.register("charred_diamond_chestplate",
-            () -> new ArmorItem(EunithiceArmorMaterials.CHARRED_DIAMOND, EquipmentSlot.CHEST, new Item.Properties()
+    public static final RegistryObject<ArmorItem> FRAGMENTED_CHESTPLATE = ITEMS.register("fragmented_chestplate",
+            () -> new ArmorItem(EunithiceArmorMaterials.DIAMOND_FRAGMENT, EquipmentSlot.CHEST, new Item.Properties()
                     .tab(Eunithice.EUNITHICE_ITEMS)));
 
-    public static final RegistryObject<ArmorItem> CHARRED_DIAMOND_LEGGINGS = ITEMS.register("charred_diamond_leggings",
-            () -> new ArmorItem(EunithiceArmorMaterials.CHARRED_DIAMOND, EquipmentSlot.LEGS, new Item.Properties()
+    public static final RegistryObject<ArmorItem> FRAGMENTED_LEGGINGS = ITEMS.register("fragmented_leggings",
+            () -> new ArmorItem(EunithiceArmorMaterials.DIAMOND_FRAGMENT, EquipmentSlot.LEGS, new Item.Properties()
                     .tab(Eunithice.EUNITHICE_ITEMS)));
 
-    public static final RegistryObject<ArmorItem> CHARRED_DIAMOND_BOOTS = ITEMS.register("charred_diamond_boots",
-            () -> new ArmorItem(EunithiceArmorMaterials.CHARRED_DIAMOND, EquipmentSlot.FEET, new Item.Properties()
+    public static final RegistryObject<ArmorItem> FRAGMENTED_BOOTS = ITEMS.register("fragmented_boots",
+            () -> new ArmorItem(EunithiceArmorMaterials.DIAMOND_FRAGMENT, EquipmentSlot.FEET, new Item.Properties()
                     .tab(Eunithice.EUNITHICE_ITEMS)));
 
     public static final RegistryObject<ArmorItem> PLATED_DIAMOND_HELMET = ITEMS.register("plated_diamond_helmet",

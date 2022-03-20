@@ -4,9 +4,9 @@
         "item": "eunithice:plated_gold_axe"
     },
     "addition": {
-        "item": "eunithice:charred_diamond_block"
+        "item": "eunithice:fragmented_block"
     },
     "result": {
-        "item": "eunithice:charred_diamond_axe"
+        "item": "eunithice:fragmented_axe"
     }
 }

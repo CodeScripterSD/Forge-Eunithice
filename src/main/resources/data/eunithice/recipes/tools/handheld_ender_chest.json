@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#$#",
+    "#A#"
+  ],
+  "key": {
+    "#": {
+      "item": "eunithice:iron_plate_block"
+    },
+    "$": {
+      "item": "minecraft:ender_chest"
+    },
+    "A": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "eunithice:handheld_ender_chest"
+  }
+}

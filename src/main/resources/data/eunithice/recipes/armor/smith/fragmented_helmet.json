@@ -4,9 +4,9 @@
         "item": "eunithice:plated_gold_helmet"
     },
     "addition": {
-        "item": "eunithice:charred_diamond_block"
+        "item": "eunithice:fragmented_block"
     },
     "result": {
-        "item": "eunithice:charred_diamond_helmet"
+        "item": "eunithice:fragmented_helmet"
     }
 }

@@ -20,7 +20,7 @@ import java.util.List;
 public class BedrockHammer extends DiggerItem {
 
     public BedrockHammer(Properties pProperties) {
-        super(20000f, 20000f, EunithiceToolTiers.CHARRED_DIAMOND, EunithiceTags.Blocks.MINEABLE_WITH_HAMMER, pProperties);
+        super(20000f, 20000f, EunithiceToolTiers.DIAMOND_FRAGMENT, EunithiceTags.Blocks.MINEABLE_WITH_HAMMER, pProperties);
     }
     @Override
     public boolean isRepairable(ItemStack stack) {

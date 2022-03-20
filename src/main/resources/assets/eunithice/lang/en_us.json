@@ -1,4 +1,6 @@
 {
+  "container.eunithice.handheld_ender_chest": "Portable Ender Chest",
+
   "block.eunithice.iron_plate_trapdoor":"Plated Iron Trapdoor",
   "block.eunithice.iron_plate_door":"Plated Iron Door",
 
@@ -10,7 +12,7 @@
   "block.eunithice.dense_gold_plate_block":"Dense Plated Gold Block",
   "block.eunithice.super_dense_gold_plate_block":"Ultimate Dense Plated Gold Block",
 
-  "block.eunithice.charred_diamond_block":"Block of Charred Diamond",
+  "block.eunithice.fragmented_block":"Fragmented Block",
 
   "block.eunithice.diamond_plate_block":"Plated Diamond Block",
   "block.eunithice.dense_diamond_plate_block":"Dense Plated Diamond Block",
@@ -29,7 +31,8 @@
   "item.eunithice.iron_plate": "Iron Plate",
   "item.eunithice.gold_plate":"Gold Plate",
   "item.eunithice.hardened_diamond_plate":"Hardened Diamond Plate",
-  "item.eunithice.charred_diamond":"Charred Diamond",
+  "item.eunithice.diamond_fragment":"Diamond Fragment",
+  "item.eunithice.handheld_ender_chest":"Portable Ender Chest",
 
   "item.eunithice.extraction_core":"Extraction Core",
   "item.eunithice.burn_core":"Burn Core",
@@ -56,11 +59,11 @@
   "item.eunithice.plated_gold_sword":"Plated Gold Sword",
 
 
-  "item.eunithice.charred_diamond_shovel":"Charred Diamond Shovel",
-  "item.eunithice.charred_diamond_axe":"Charred Diamond Axe",
-  "item.eunithice.charred_diamond_pickaxe":"Charred Diamond Pickaxe",
-  "item.eunithice.charred_diamond_hoe":"Charred Diamond Hoe",
-  "item.eunithice.charred_diamond_sword":"Charred Diamond Sword",
+  "item.eunithice.fragmented_shovel":"Fragmented Shovel",
+  "item.eunithice.fragmented_axe":"Fragmented Axe",
+  "item.eunithice.fragmented_pickaxe":"Fragmented Pickaxe",
+  "item.eunithice.fragmented_hoe":"Fragmented Hoe",
+  "item.eunithice.fragmented_sword":"Fragmented Sword",
 
   "item.eunithice.plated_diamond_shovel":"Plated Diamond Shovel",
   "item.eunithice.plated_diamond_axe":"Plated Diamond Axe",
@@ -78,10 +81,10 @@
   "item.eunithice.plated_gold_chestplate":"Plated Gold Chestplate",
   "item.eunithice.plated_gold_helmet":"Plated Gold Helmet",
 
-  "item.eunithice.charred_diamond_boots":"Charred Diamond Boots",
-  "item.eunithice.charred_diamond_leggings":"Charred Diamond Leggings",
-  "item.eunithice.charred_diamond_chestplate":"Charred Diamond Chestplate",
-  "item.eunithice.charred_diamond_helmet":"Charred Diamond Helmet",
+  "item.eunithice.fragmented_boots":"Fragmented Boots",
+  "item.eunithice.fragmented_leggings":"Fragmented Leggings",
+  "item.eunithice.fragmented_chestplate":"Fragmented Chestplate",
+  "item.eunithice.fragmented_helmet":"Fragmented Helmet",
 
   "item.eunithice.plated_diamond_boots":"Plated Diamond Boots",
   "item.eunithice.plated_diamond_leggings":"Plated Diamond Leggings",
@@ -133,5 +136,7 @@
   "itemGroup.eunithice":"Eunithice Items",
 
   "enchantment.eunithice.fire_thorns":"Fire Thorns",
-  "enchantment.eunithice.slowness_thorns":"Slowing"
+  "enchantment.eunithice.slowness_thorns":"Slowing",
+  "enchantment.eunithice.withered_thorns":"Withered Thorns",
+  "enchantment.eunithice.regenerating_thorns":"Regenerative Thorns"
 }

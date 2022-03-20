@@ -3,6 +3,7 @@ package com.craftminerd.eunithice.item.custom.tools;
 import com.craftminerd.eunithice.util.EunithiceTags;
 import net.minecraft.Util;
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.Registry;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.world.InteractionResult;
@@ -80,8 +81,8 @@ public class HammerItem extends DiggerItem {
         }
     }
 
-    private boolean isHammerableBlock(Block block) {
-        return EunithiceTags.Blocks.HAMMERABLE_BLOCKS.contains(block);
+    protected boolean isHammerableBlock(Block block) {
+        return Registry.BLOCK.getHolderOrThrow(Registry.BLOCK.getResourceKey(block).get()).is(EunithiceTags.Blocks.HAMMERABLE_BLOCKS);
     }
 
     @Override

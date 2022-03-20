@@ -21,8 +21,14 @@ public class EunithiceEnchantments {
     }
 
     public static final RegistryObject<Enchantment> FIRE_THORNS = ENCHANTMENTS.register("fire_thorns",
-            () -> new FireThornsEnchantment(Enchantment.Rarity.VERY_RARE, ARMOR_SLOTS));
+            () -> new FireThornsEnchantment(Enchantment.Rarity.RARE, EquipmentSlot.CHEST));
 
     public static final RegistryObject<Enchantment> SLOWNESS_THORNS = ENCHANTMENTS.register("slowness_thorns",
             () -> new SlownessThornsEnchantment(Enchantment.Rarity.VERY_RARE, EquipmentSlot.LEGS));
+
+    public static final RegistryObject<Enchantment> WITHERED_THORNS = ENCHANTMENTS.register("withered_thorns",
+            () -> new WitheredThornsEnchantment(Enchantment.Rarity.VERY_RARE, EquipmentSlot.CHEST));
+
+    public static final RegistryObject<Enchantment> REGENERATING_THORNS = ENCHANTMENTS.register("regenerating_thorns",
+            () -> new RegenerativeThornsEnchantment(Enchantment.Rarity.VERY_RARE, EquipmentSlot.CHEST));
 }

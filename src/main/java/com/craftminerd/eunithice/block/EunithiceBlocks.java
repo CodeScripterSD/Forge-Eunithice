@@ -171,7 +171,7 @@ public class EunithiceBlocks {
                     .sound(SoundType.METAL)),
             Eunithice.EUNITHICE_ITEMS);
 
-    public static  final RegistryObject<Block> CHARRED_DIAMOND_BLOCK = registerBlock("charred_diamond_block",
+    public static  final RegistryObject<Block> FRAGMENTED_BLOCK = registerBlock("fragmented_block",
             () -> new Block(BlockBehaviour.Properties
                     .of(Material.METAL, MaterialColor.COLOR_BLUE)
                     .strength(22f, 25f)
@@ -197,6 +197,24 @@ public class EunithiceBlocks {
                     .requiresCorrectToolForDrops()
                     .noOcclusion()
                     .sound(SoundType.METAL)),
+            Eunithice.EUNITHICE_ITEMS);
+
+    public static final RegistryObject<Block> STONE_DOOR = registerBlock("stone_door",
+            () -> new DoorBlock(BlockBehaviour.Properties
+                    .of(Material.STONE, MaterialColor.STONE)
+                    .strength(5.0F, 6.0F)
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion()
+                    .sound(SoundType.STONE)),
+            Eunithice.EUNITHICE_ITEMS);
+
+    public static final RegistryObject<Block> STONE_TRAPDOOR = registerBlock("stone_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties
+                    .of(Material.STONE, MaterialColor.STONE)
+                    .strength(5.0F, 6.0F)
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion()
+                    .sound(SoundType.STONE)),
             Eunithice.EUNITHICE_ITEMS);
 
     public static final RegistryObject<Block> LEURITE = BLOCKS.register("leurite_crop",

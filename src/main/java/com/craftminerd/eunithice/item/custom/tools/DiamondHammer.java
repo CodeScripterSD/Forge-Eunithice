@@ -1,15 +1,19 @@
 package com.craftminerd.eunithice.item.custom.tools;
 
+import com.craftminerd.eunithice.enchantments.EunithiceEnchantments;
 import com.craftminerd.eunithice.item.custom.tiers.EunithiceToolTiers;
 import com.craftminerd.eunithice.util.EunithiceTags;
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.Registry;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.world.InteractionResult;
+import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.context.UseOnContext;
+import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -18,7 +22,7 @@ import java.util.List;
 
 public class DiamondHammer extends HammerItem {
     public DiamondHammer(Properties pProperties) {
-        super(0f, -1f, EunithiceToolTiers.CHARRED_DIAMOND, pProperties);
+        super(0f, -1f, EunithiceToolTiers.DIAMOND_FRAGMENT, pProperties);
     }
 
     @Override
@@ -47,8 +51,8 @@ public class DiamondHammer extends HammerItem {
         }
     }
 
-    private boolean isHammerableBlock(Block block) {
-        return EunithiceTags.Blocks.HAMMERABLE_BLOCKS.contains(block) || block == Blocks.OBSIDIAN;
+    protected boolean isHammerableBlock(Block block) {
+        return block == Blocks.OBSIDIAN || super.isHammerableBlock(block);
     }
 
     public void appendHoverText(ItemStack pStack, Level pLevel, List<Component> pToolTipComponents, TooltipFlag pIsAdvanced) {

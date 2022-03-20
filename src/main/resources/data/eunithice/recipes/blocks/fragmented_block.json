@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "eunithice:charred_diamond"
+      "item": "eunithice:diamond_fragment"
     }
   },
   "result": {
-    "item": "eunithice:charred_diamond_block"
+    "item": "eunithice:fragmented_block"
   }
 }

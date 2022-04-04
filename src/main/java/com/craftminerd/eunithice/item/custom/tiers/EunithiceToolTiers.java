@@ -12,7 +12,7 @@ public enum EunithiceToolTiers implements Tier {
     PLATED_IRON(3, 750, 14.0f, 2.5f, 20,
             () -> Ingredient.of(EunithiceBlocks.IRON_PLATE_BLOCK.get())),
     PLATED_GOLD(4, 1600, 20.0f, 3.5f, 60,
-            () -> Ingredient.of(EunithiceBlocks.GOLD_PLATE_BLOCK.get())),
+            () -> Ingredient.of(EunithiceBlocks.DENSE_GOLD_PLATE_BLOCK.get())),
     DIAMOND_FRAGMENT(5, 3200, 30.0f, 5.0f, 90,
             () -> Ingredient.of(EunithiceBlocks.FRAGMENTED_BLOCK.get())),
     PLATED_DIAMOND(6, 6400, 50.0f, 8.0f, 200,

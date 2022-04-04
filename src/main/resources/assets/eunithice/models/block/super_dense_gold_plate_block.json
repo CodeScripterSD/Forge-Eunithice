@@ -1,6 +1,7 @@
 {
-	"parent": "block/cube_all",
+	"parent": "block/cube_column",
 	"textures": {
-		"all": "eunithice:blocks/super_dense_gold_plate_block"
+		"end": "eunithice:blocks/super_dense_gold_plate_block_top",
+		"side": "eunithice:blocks/super_dense_gold_plate_block_side"
 	}
 }

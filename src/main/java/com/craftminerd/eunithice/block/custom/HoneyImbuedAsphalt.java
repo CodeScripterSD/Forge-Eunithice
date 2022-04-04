@@ -8,6 +8,8 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.Vec3;
 import org.jetbrains.annotations.NotNull;
 
+import static java.lang.Math.abs;
+
 public class HoneyImbuedAsphalt extends Block {
 
     public HoneyImbuedAsphalt(Properties properties) {
@@ -24,7 +26,7 @@ public class HoneyImbuedAsphalt extends Block {
     private void slowDown(Entity entity) {
         double slowDownFactor = 0.6D;
         Vec3 vec3 = entity.getDeltaMovement();
-        if (vec3.x > 0.10D || vec3.z > 0.10D) {
+        if (abs(vec3.x) > 0.10D || abs(vec3.z) > 0.10D) {
             entity.setDeltaMovement(vec3.x * slowDownFactor, vec3.y * slowDownFactor, vec3.z * slowDownFactor);
         }
     }

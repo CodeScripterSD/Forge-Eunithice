@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "eunithice:stone_sheet"
+    }
+  },
+  "result": {
+    "item": "eunithice:stone_door",
+    "count":2
+  }
+}

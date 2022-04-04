@@ -3,6 +3,8 @@
 
   "block.eunithice.iron_plate_trapdoor":"Plated Iron Trapdoor",
   "block.eunithice.iron_plate_door":"Plated Iron Door",
+  "block.eunithice.stone_trapdoor":"Stone Trapdoor",
+  "block.eunithice.stone_door":"Stone Door",
 
   "block.eunithice.iron_plate_block" : "Plated Iron Block",
   "block.eunithice.dense_iron_plate_block" : "Dense Plated Iron Block",

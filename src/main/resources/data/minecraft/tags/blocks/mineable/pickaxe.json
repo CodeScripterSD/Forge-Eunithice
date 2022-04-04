@@ -16,6 +16,8 @@
 		"eunithice:super_dense_diamond_plate_block",
 		"eunithice:iron_plate_door",
 		"eunithice:iron_plate_trapdoor",
+		"eunithice:stone_door",
+		"eunithice:stone_trapdoor",
 
 		"eunithice:fragmented_block"
 	]

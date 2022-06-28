@@ -1,0 +1,18 @@
+{
+    "type": "eunithice:work_station_shapeless",
+    "ingredients": [
+        {
+            "item": "eunithice:dense_iron_plate_block"
+        },
+        {
+            "item": "minecraft:ender_chest"
+        },
+        {
+            "item": "minecraft:stick"
+        }
+    ],
+    "result": {
+        "item": "eunithice:handheld_ender_chest",
+        "count": 1
+    }
+}

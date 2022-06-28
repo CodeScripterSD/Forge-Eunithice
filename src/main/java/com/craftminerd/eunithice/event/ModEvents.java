@@ -22,17 +22,16 @@ public class ModEvents {
     public static void addCustomTrades(VillagerTradesEvent event) {
         if (event.getType() == VillagerProfession.MASON) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
-            int villagerLevel = 4;
 
 
-            trades.get(3).add((trader, rand) -> new MerchantOffer(
+            trades.get(1).add((trader, rand) -> new MerchantOffer(
                     new ItemStack(Items.EMERALD, 16), new ItemStack(EunithiceBlocks.SPEED_IMBUED_ASPHALT.get(), 8), 16, 8, 0.02F));
 
-            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
-                    new ItemStack(Items.EMERALD, 32), new ItemStack(EunithiceBlocks.JUMP_IMBUED_ASPHALT.get(), 4), 32, 8, 0.02F));
+            trades.get(4).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 32), new ItemStack(EunithiceBlocks.JUMP_IMBUED_ASPHALT.get(), 4), 32, 12, 0.02F));
 
-            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
-                    new ItemStack(Items.EMERALD, 32), new ItemStack(EunithiceBlocks.HONEY_IMBUED_ASPHALT.get(), 4), 32, 8, 0.02F));
+            trades.get(4).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 32), new ItemStack(EunithiceBlocks.HONEY_IMBUED_ASPHALT.get(), 4), 32, 9, 0.02F));
         }
     }
 

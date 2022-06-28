@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"eunithice:burn_core",
+		"eunithice:extraction_core",
+		"eunithice:nether_core",
+		"eunithice:superheated_nether_core"
+	]
+}

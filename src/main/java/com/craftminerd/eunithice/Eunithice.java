@@ -1,8 +1,11 @@
 package com.craftminerd.eunithice;
 
 import com.craftminerd.eunithice.block.EunithiceBlocks;
+import com.craftminerd.eunithice.block.entity.EunithiceBlockEntities;
 import com.craftminerd.eunithice.enchantments.EunithiceEnchantments;
 import com.craftminerd.eunithice.item.EunithiceItems;
+import com.craftminerd.eunithice.recipe.EunithiceRecipes;
+import com.craftminerd.eunithice.screen.EunithiceMenuTypes;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
@@ -30,6 +33,11 @@ public class Eunithice
         EunithiceItems.register(eventBus);
         EunithiceBlocks.register(eventBus);
         EunithiceEnchantments.register(eventBus);
+
+        EunithiceBlockEntities.register(eventBus);
+        EunithiceMenuTypes.register(eventBus);
+
+        EunithiceRecipes.register(eventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
     }

@@ -29,6 +29,9 @@
   "block.eunithice.honey_imbued_sand":"Honey Imbued Sand",
   "block.eunithice.speed_imbued_sand":"Speed Imbued Sand",
 
+  "block.eunithice.work_station":"Work Station",
+  "block_entity.eunithice.display_name.work_station": "Work Station",
+
   "item.eunithice.stone_sheet": "Stone Sheet",
   "item.eunithice.iron_plate": "Iron Plate",
   "item.eunithice.gold_plate":"Gold Plate",

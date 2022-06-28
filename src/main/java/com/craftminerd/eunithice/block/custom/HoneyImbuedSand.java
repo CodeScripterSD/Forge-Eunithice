@@ -1,6 +1,7 @@
 package com.craftminerd.eunithice.block.custom;
 
 import net.minecraft.core.BlockPos;
+import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.Level;
@@ -30,6 +31,10 @@ public class HoneyImbuedSand extends FallingBlock {
         if (abs(vec3.x) > 0.10D || abs(vec3.z) > 0.10D) {
             entity.setDeltaMovement(vec3.x * slowDownFactor, vec3.y * slowDownFactor, vec3.z * slowDownFactor);
         }
+    }
+
+    public void fallOn(Level p_153362_, BlockState p_153363_, BlockPos p_153364_, Entity p_153365_, float p_153366_) {
+        p_153365_.causeFallDamage(p_153366_, 0.4F, DamageSource.FALL);
     }
 
 }

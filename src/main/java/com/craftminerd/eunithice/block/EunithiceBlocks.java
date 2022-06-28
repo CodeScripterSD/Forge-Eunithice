@@ -6,10 +6,7 @@ import com.craftminerd.eunithice.item.EunithiceItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.DoorBlock;
-import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.TrapDoorBlock;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.material.MaterialColor;
@@ -220,4 +217,8 @@ public class EunithiceBlocks {
     public static final RegistryObject<Block> LEURITE = BLOCKS.register("leurite_crop",
             () -> new LeuriteCrop(BlockBehaviour.Properties
                     .copy(net.minecraft.world.level.block.Blocks.WHEAT)));
+
+    public static final RegistryObject<Block> WORK_STATION = registerBlock("work_station",
+            () -> new WorkStationBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()),
+            Eunithice.EUNITHICE_ITEMS);
 }

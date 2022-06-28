@@ -1,0 +1,15 @@
+{
+    "type": "eunithice:work_station_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:iron_ingot"
+        },
+        {
+            "tag": "eunithice:stone_hammers_up"
+        }
+    ],
+    "result": {
+        "item": "eunithice:iron_plate",
+        "count": 6
+    }
+}

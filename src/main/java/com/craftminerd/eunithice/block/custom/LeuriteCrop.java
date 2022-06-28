@@ -24,7 +24,6 @@ public class LeuriteCrop extends CropBlock {
 
     public LeuriteCrop(Properties properties) {
         super(properties);
-        // TODO Auto-generated constructor stub
     }
 
     protected @NotNull ItemLike getBaseSeedId() {

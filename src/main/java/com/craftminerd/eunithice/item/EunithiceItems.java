@@ -29,7 +29,8 @@ public class EunithiceItems {
 
     public static final RegistryObject<HandheldEnderChest> HANDHELD_ENDER_CHEST = ITEMS.register("handheld_ender_chest",
             () -> new HandheldEnderChest(new Item.Properties()
-                    .tab(Eunithice.EUNITHICE_ITEMS)));
+                    .tab(Eunithice.EUNITHICE_ITEMS)
+                    .stacksTo(1)));
 
 
     public static final RegistryObject<BedrockHammer> BEDROCK_HAMMER = ITEMS.register("bedrock_hammer",
@@ -238,6 +239,8 @@ public class EunithiceItems {
     public static final RegistryObject<ArmorItem> FRAGMENTED_BOOTS = ITEMS.register("fragmented_boots",
             () -> new ArmorItem(EunithiceArmorMaterials.DIAMOND_FRAGMENT, EquipmentSlot.FEET, new Item.Properties()
                     .tab(Eunithice.EUNITHICE_ITEMS)));
+
+
 
     public static final RegistryObject<ArmorItem> PLATED_DIAMOND_HELMET = ITEMS.register("plated_diamond_helmet",
             () -> new ArmorItem(EunithiceArmorMaterials.PLATED_DIAMOND, EquipmentSlot.HEAD, new Item.Properties()
